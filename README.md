@@ -26,8 +26,10 @@ landing-page/
 ├── index.html                          # Main landing page
 ├── styles.css                          # All styles (dark theme, responsive)
 ├── blog/
+│   ├── index.html                      # Blog index page
 │   ├── ai-automation-guide.html        # Pillar blog post
-│   └── ai-tasks-automation.html        # Supporting blog post
+│   ├── ai-tasks-automation.html        # Supporting blog post
+│   └── arora-ai-vs-agencies.html       # Competitor comparison post
 ├── .github/workflows/deploy.yml        # GitHub Pages deployment
 └── README.md
 ```
@@ -38,7 +40,7 @@ landing-page/
 - Responsive: 3 breakpoints (desktop, 768px, 480px)
 - Sections: Hero, Services, Pricing, Blog, About, Contact/CTA
 - 3-tier pricing (Starter $997, Growth $3,500, Enterprise Custom)
-- 2 full blog posts with SEO meta tags
+- 3 full blog posts with SEO meta tags + blog index page
 - Fixed navbar with backdrop blur
 - No JavaScript dependencies
 - Deployed via GitHub Pages with Actions workflow
