@@ -434,6 +434,11 @@ body {
   color: var(--accent-hover);
 }
 
+/* === Blog Index Page === */
+.blog-index {
+  padding: 120px 0 80px;
+}
+
 /* === Contact === */
 .contact {
   padding: 100px 0;
